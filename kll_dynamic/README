@@ -1,0 +1,16 @@
+kll sketch
+----------
+
+Library implements KLL sketch data structure
+http://arxiv.org/pdf/1603.05346v1.pdf
+
+```
+meson setup build
+
+cd build
+ninja
+
+./test_kll
+cd ..
+
+```
